@@ -1,6 +1,5 @@
-// src/pages/OrganizationSetupPage.js
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom'; 
 
 const OrganizationSetupPage = () => {
   const [companyName, setCompanyName] = useState('');
@@ -12,10 +11,8 @@ const OrganizationSetupPage = () => {
     { url: 'https://example.com/page3', status: 'Scraped', dataChunks: ['Data 3'] },
   ]);
 
-  const navigate = useNavigate(); // Initialize useNavigate
-
+  const navigate = useNavigate(); 
   const handleSubmit = () => {
-    // Submit the organization setup logic here
     alert('Organization Setup Completed');
     navigate('/chatbot-integration'); // Navigate to the Chatbot Integration page
   };

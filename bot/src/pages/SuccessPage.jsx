@@ -1,4 +1,3 @@
-// src/pages/SuccessPage.js
 import React from 'react';
 import Confetti from 'react-confetti';
 

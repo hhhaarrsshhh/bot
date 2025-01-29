@@ -17,7 +17,7 @@ const ChatbotIntegrationPage = () => {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg w-96">
-        <h2 className="text-2xl font-bold mb-6">Chatbot Integration & Testing</h2>
+        <h2 className="text-2xl font-bold mb-6 mt-8">Chatbot Integration & Testing</h2>
 
         <button
           className="bg-blue-500 text-white w-full py-2 rounded mb-4"

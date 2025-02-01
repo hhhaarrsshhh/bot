@@ -36,4 +36,8 @@ To get started with this project locally, follow these steps:
 
 ### Steps to Run Locally:
 
-repo link- 
+repo link- https://github.com/hhhaarrsshhh/bot
+1.first download the code from the repository.
+2. Install the required packages by running `npm install` in the project directory.
+3. Start the development server by running `npm run dev`.
+4. Open your web browser and navigate to local host to see the application in action.
